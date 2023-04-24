@@ -35,13 +35,13 @@ body {
   margin: 0 auto 0;
 }
 
-.section__input, .section__label {
+.state__input, .state__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.section__add-item, li {
+.state__add-item, li {
   display: flex;
   padding: 20px 0;
 }
@@ -106,7 +106,7 @@ input[type="text"]:focus {
 
 /* New Task */
 
-.section__input_add {
+.state__input_add {
   width: 318px;
 }
 
@@ -138,19 +138,19 @@ li >    input[type="text"] {
   width: 226px;
 }
 
-.section__button_delete img {
+.state__button_delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.section__button_delete img:hover {
+.state__button_delete img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
 
-.section__content_complete label {
+.state__content_complete label {
   text-decoration: line-through;
   color: #888;
 }
@@ -161,11 +161,11 @@ ul li input[type=text] {
   display: none;
 }
 
-ul li.section__item_edit input[type=text] {
+ul li.state__item_edit input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.section__item_edit label {
+ul li.state__item_edit label {
   display: none;
 }

@@ -29,19 +29,19 @@ body {
 
 }
 
-.info-container {
+.matrix-container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 
-.state__input, .state__label {
+.status__input, .status__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.state__add-item, li {
+.status__add-item, li {
   display: flex;
   padding: 20px 0;
 }
@@ -106,7 +106,7 @@ input[type="text"]:focus {
 
 /* New Task */
 
-.state__input_add {
+.status__input_add {
   width: 318px;
 }
 
@@ -138,19 +138,19 @@ li >    input[type="text"] {
   width: 226px;
 }
 
-.state__button_delete img {
+.status__button_delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.state__button_delete img:hover {
+.status__button_delete img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
 
-.state__content_complete label {
+.status__content_complete label {
   text-decoration: line-through;
   color: #888;
 }
@@ -161,11 +161,11 @@ ul li input[type=text] {
   display: none;
 }
 
-ul li.state__item_edit input[type=text] {
+ul li.status__item_edit input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.state__item_edit label {
+ul li.status__item_edit label {
   display: none;
 }
